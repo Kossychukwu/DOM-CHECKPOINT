@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class ="navBar main-nav">
+            <ul>
+                <li> <a href ="#">HOME</a></li>
+                <li><a href ="#" target ="_blank">STORE</a></li>
+                <li><a href ="#">ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="slime slime-name">SLIME</h1>
+        <div>
+        <button class="btn btn-header">Get Latest Albums</button>
+        </div>
+        
+        <button class="btn btn-play">&#9658</button>
+    </header>
+    <section class="container">
+        <h2>Music</h2>
+<div class="grid">
+    <div class="shop-item">
+       <span class="shop-item-title">Album 1</span>
+        <img  class="shop-item-img" src="./images/download (1).jpg" alt="">
+        <div class="shop-item-detail">
+            <span class="shop-item-price">$10.99</span>
+            <button class= "btn-primary" role="button">Add To Cart</button>
+        </div>
+    </div>    
+    <div class="shop-item">
+        <div>
+            <span class="shop-item-title">Album 2</span>
+        </div>
+        <div>
+            <img class="shop-item-img" src=".\images\download (4).jpg" alt="">
+        </div>
+        <div>
+            <span class="shop-item-price">$12.99</span>
+            <button class= "btn-primary" role="button">Add To Cart</button>
+        </div>
+    </div>
+    <div class="shop-item">
+        <div>
+            <span class="shop-item-title" >Album 3</span>
+        </div>
+        <div>
+            <img class="shop-item-img" src=".\images\download.jpg" alt="">
+        </div>
+        <div>
+            <span class="shop-item-price">$13.99</span>
+            <button class= "btn-primary" role="button">Add To Cart</button>
+        </div>
+    </div>
+    <div class="shop-item">
+        <div>
+            <span class="shop-item-title">Album 4</span>
+        </div>
+        <div>
+            <img class="shop-item-img" src=".\images\download (2).jpg" alt="">
+        </div>
+        <div>
+            <span class="shop-item-price">$12.99</span>
+            <button  class= "btn-primary" role="button">Add To Cart</button>
+        </div>
+    </div>
+
+    </section>
+    <section class="container">
+        <h2>MERCH</h2>
+<div class="shop-item ">
+    <div>
+        <div>
+            <span class="shop-item-title">SLIME HODDIE</span>
+        </div>
+        <div>
+            <img src=".\images\merch.jpg" alt="">
+        </div>
+        <div>
+            <span>$19.99</span>
+            <button role="button">Add To Cart</button>
+        </div>
+    </div>
+    <div class="">
+        <div>
+            <span class="shop-item-title">PUNK HODDIE</span>
+        </div>
+        <div>
+            <img src=".\images\merch 1.jpg" alt="">
+        </div>
+        <div>
+            <span>$12.99</span>
+            <button role="button">Add To Cart</button>
+        </div> 
+    </div>    
+</div>
+
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column" >ITEM</span>
+            <span class="cart-price cart-header cart-column">Price</span>
+            <span class="cart-quantity cart-header cart-column">Quantity</span>
+        </div>
+        <div class="cart-row">
+            <div class="cart-item cart-column">
+            <img  class="cart-item-img" src="./images/merch.jpg" width="80" height="80" alt="">
+            <span class="cart-item-title">Hoddies</span>
+            </div>
+            <span class="cart-price cart-column">$19.99</span>
+            <div class="cart-quantity cart-column">
+            <input class="cart-input" type ="number" value="1">
+            <button class="btn btn-danger "role="button">REMOVE</button>
+            </div>
+        </div>
+    <div class="cart-row">
+        <div class="cart-item cart-column">
+            <img class="cart-item-img2" src="./images/download (2).jpg" width="80" height="80" alt="">
+            <span class="cart-item-title">Album</span>
+        </div>
+        <span class="cart-price cart-column">$19.99</span>
+         <div class="cart-quantity cart-column" >
+            <input class="cart-input" type ="number" value="1">  
+          
+            <button class="btn btn-danger" role="button">REMOVE</button>
+    </div>
+    </div>
+    </div>
+        <div>
+            <strong>Total</strong>
+            <span>$40.97</span>
+        </div>
+
+        <div>
+            <button role="buttton">PURCHASE</button>
+        </div>
+
+    </section>
+    <section>
+        <h2>TOUR</h2>
+        <div>
+            <div>
+                <strong>Jul 16</strong>
+                &lt &gt
+                <span>DETRIOT, MI</span>
+                &lt &gt
+                <span>DTE ENERGY MUSIC</span>
+                &lt &gt
+                <button type="button">BUY TICKETS</button>
+            </div>
+            <hr>
+            <div>
+                <strong>August 16</strong>
+                &lt &gt
+                <span>NIGERIA</span>
+                &lt &gt
+                <span>EKO HOTEL</span>
+                &lt &gt
+                <button type="button">BUY TICKETS</button>
+            </div>
+            <hr>
+            <div>
+                <strong>SEPTEMBER 16</strong>
+                &lt &gt
+                <span>LONDON</span>
+                &lt &gt
+                <span>O2</span>
+                &lt &gt
+                <button type="button">BUY TICKETS</button>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <h2>ABOUT</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur sapiente quasi nisi totam mollitia deleniti dolor porro accusantium! Explicabo quo magnam ab, ex quam, soluta cupiditate cumque saepe molestiae laudantium qui harum repudiandae asperiores optio voluptatibus doloribus, odio repellat ipsam ipsum animi praesentium maiores. Velit quia ducimus assumenda omnis, quis quas quibusdam quod neque qui molestiae voluptas, consequuntur obcaecati illo!</p>
+        <img src="./images/download (3).jpg" alt="image">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus atque doloremque sapiente corrupti tempora. Labore blanditiis vitae recusandae quod eveniet error animi, laborum sed architecto, culpa iusto sint aperiam et!</p>
+        
+    </section> -->
+    <div class="main-container">
+    <footer class="main-footer">
+        <h3 class="sli">Socials</h3>
+        
+        <ul>
+            <li><img src="./images/icons8-youtube-48.png" alt="youtube"></li>
+            <li><img src="./images/icons8-twitter-48 (1).png" alt="twitter"></li>
+            <li><img src="./images/icons8-facebook-48.png" alt="facebook"></li>
+        </ul>
+    </footer>
+    </div>
+
+</body>
+</html>

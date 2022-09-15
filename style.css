@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #777;
+}
+
+html, body {
+    margin : 0;
+    padding: 0;
+}
+
+.navBar ul {
+    margin: 0;
+}
+
+.navBar li {
+    display: inline;
+
+}
+
+.navBar a {
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+    color: tomato;
+}
+.navBar a:hover{
+    background-color: bisque;
+}
+.main-header {
+    background-color: rgba(0, 0, 0, .0);
+    background-image :url("images/background.jpg") ;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid grey;
+}
+
+.main-nav li {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.slime {
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    color : #333;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    padding: 25em, 0;
+    width: 100%; 
+    margin: 0;
+
+}
+
+.main-container {
+    display: flex;
+
+}
+
+.main-container ul {
+
+    text-align: end;
+}
+
+.main-container li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+}
+
+.main-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .60em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: black;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.4em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+.btn-header:hover{
+    background-color: #777;
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: burlywood;
+    height: 50px;
+    width: 50px;
+    color: #2D9CDB;
+    padding: 0;
+}
+
+
+.container {
+    margin : 0 auto;
+    padding: 0 3em;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: larger;
+    color:black;
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: justify;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.shop-item-img {
+    height: 100px
+}
+
+.shop-item-detail{
+    display:flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: 2em;
+    font-weight:bold;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+
+
+.grid {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column{
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border: none;
+}
+
+.cart-row {
+    display: flex;
+    border-bottom:  ;
+}
+
+.cart-item{
+width: 45%;
+display: flex;
+border-bottom: 3px solid grey;
+}
+
+.cart-price{
+display:flex;
+font-size:1.2em;
+color:#333;
+width: 20%;
+border-bottom: 3px solid grey;
+
+}
+
+.cart-quantity{
+display: flex;
+width: 35%;
+border-bottom: 3px solid grey;
+}
+
+.cart-item-title{
+    color:#333;
+    margin-left: .5em;
+    font-size: 1.25em;
+    
+}
+
+.cart-item-img{
+    width:18%;
+    height: auto;
+    border-radius:10px;
+}
+
+.cart-item-img2{
+width: 20%;
+height: auto;
+}
+
+.btn-danger{
+    color: white;
+    background-color: #E85757;
+    border:none;
+    border-radius: .3rem;
+    text-align: center;
+    font-weight: bold;
+    margin-left:20px;
+}
+
+.btn:hover{
+background-color: #CC4C4C;
+}
+
+.cart-input{
+height:34px;
+width: 47px;
+color: #333;
+border: 2px solid;
+border-color: aqua;
+background-color: #eeee;
+border-radius:4px;
+padding: 0px;
+font-weight: bold;
+margin-right: 20px;
+text-align: center;
+}
